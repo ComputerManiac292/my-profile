@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+#profile-pic {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+    display: block; /* Block level element */
+    margin: 0 auto; /* Center the image */
+    padding: 20px; /* Add some space around the image */
+}
+#social-media-links a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* No underline */
+    padding: 0 10px; /* Spacing between links */
+}
+
+#social-media-links a:hover {
+    text-decoration: underline; /* Underline on hover for visual feedback */
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    /* Add more responsive styles here */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #333; /* Darker text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #006064; /* Dark teal background */
+    color: #fff; /* White text for header */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif; /* Stylish font for headers */
+    color: #004d40; /* Darker shade for headers */
+}
+
+p {
+    line-height: 1.6; /* Improves readability */
+}
+
+section {
+    background-color: #b2ebf2; /* Lighter blue for sections */
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 10px; /* Rounded corners for sections */
+    width: 80%; /* Limiting section width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+footer {
+    background-color: #006064;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#social-media-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+#social-media-links a:hover {
+    text-decoration: underline;
+}
+
+
